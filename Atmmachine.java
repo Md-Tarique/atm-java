@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-class atm {
+class Atm {
     double balance = 0;
     int count = 3;
 
@@ -98,7 +98,7 @@ class atm {
 public class Atmmachine {
 
     public static void main(String[] args) {
-        atm a = new atm();
+        Atm a = new Atm();
         a.ChechPin();
 
     }
